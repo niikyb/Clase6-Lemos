@@ -15,3 +15,4 @@ addToCart({id: 3, title: 'Ruleman SFK 6203', price: 630});
 addToCart({id: 4, title: 'Ruleman SFK 6204', price: 970});
 
 console.log(cart)
+alert('Su carrito contiene ' + cart.length + ' productos. Su total es: $' + subtotalCart)
